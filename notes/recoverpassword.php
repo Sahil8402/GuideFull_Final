@@ -1,6 +1,5 @@
 <?php include 'includes/connection.php';?>
-<?php include 'includes/header.php';?>
-<?php include 'includes/navbar.php';?>
+
 
 <?php
 if (isset($_POST['recover'])) {
@@ -66,11 +65,7 @@ else {
 }
 }
 
-?>
-
-
-
-
+?> 
  <div class="login-card">
     <h1>Recover Password</h1><br>
   <form action = "" method="POST">

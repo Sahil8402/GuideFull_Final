@@ -8,9 +8,6 @@ require 'constants/db_config.php';
 if (isset($_GET['ref'])) {
 
 $company_id = $_GET['ref'];
-
-
-
     try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);

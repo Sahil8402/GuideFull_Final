@@ -1,7 +1,8 @@
 <?php include 'includes/connection.php';?>
-<?php include 'includes/header.php';?>
-
-<?php include 'includes/navbar.php';?>
+<link rel="stylesheet" type="text/css" href="css/cms-home.css">
+	<link rel="stylesheet" type="text/css" href="css/material-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+  <link rel="stylesheet" href="css/loginstyle.css">
 
 <?php
 if (isset($_POST['signup'])) {
@@ -11,7 +12,7 @@ $_POST = $gump->sanitize($_POST);
 
 $gump->validation_rules(array(
   'username'    => 'required|alpha_numeric|max_len,20|min_len,4',
-  'name'        => 'required|alpha_space|max_len,30|min_len,5',
+  'name'        => 'required|alpha_space|max_len,30|min_len,3 ',
   'email'       => 'required|valid_email',
   'password'    => 'required|max_len,50|min_len,6',
 ));
@@ -70,12 +71,8 @@ else {
 }
 }
 ?>
-<br>
-
-<div class="container">
-
-
-      <div  class="form">
+      <!-- <div  class="login-card">
+      <h1>Sign Up</h1><br>
         <form id="contactform" method="POST"> 
           <p class="contact"><label for="name">Name</label></p> 
           <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['name']; } ?>"> 
@@ -83,7 +80,7 @@ else {
           <p class="contact"><label for="email">Email</label></p> 
           <input id="email" name="email" placeholder="example@domain.com" required="" type="email" value="<?php if(isset($_POST['signup'])) { echo $_POST['email']; } ?>"> 
                 
-                <p class="contact"><label for="username">Create a username</label></p> 
+          <p class="contact"><label for="username">Create a username</label></p> 
           <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['username']; } ?>"> 
            
                 <p class="contact"><label for="password">Create a password</label></p> 
@@ -110,10 +107,58 @@ else {
             <option value="Mechanical">Mechanical Engineering</option>
             </select><br><br>
             
-            <input class="buttom" name="signup" id="submit" tabindex="5" value="Sign me up!" type="submit">    
+            <input class="button" name="signup" id="submit" class="login login-submit" tabindex="5" value="Sign me up!" type="submit">     -->
+<div style="background-image: url('./b3.jpg');height:900px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; padding-top:50px;">
+<center>
+<h1><img src="./GuideFull.jpg" height="100px" width="480px" ></h1>
+</center>
+  <div class="login-card" style="width:400px;height:auto">
+    <h1>Sign Up</h1><br>
+  <form method="POST" id="contactform" >
+        <p class="contact"><label for="name">Name</label></p> 
+        <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['name']; } ?>"> 
+           
+          <p class="contact"><label for="email">Email</label></p> 
+          <input id="email" name="email" placeholder="example@domain.com" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['email']; } ?>"> 
+                
+          <p class="contact"><label for="username">Create a username</label></p> 
+          <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['username']; } ?>"> 
+           
+                <p class="contact"><label for="password">Create a password</label></p> 
+          <input type="password" id="password" name="password" required=""> 
+                <p class="contact"><label for="repassword">Confirm your password</label></p> 
+          <input type="password" id="repassword" name="repassword" required=""> 
+        
+            <p class="contact"><label for="gender">Gender</label></p> 
+            <select class="select-style gender" name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="role">Role</label></p> 
+            <select class="select-style gender" name="role">
+            <option value="teacher">Teacher</option>
+            <option value="student">Student</option>
+            </select><br><br>
+            
+            <p class="contact"><label for="course">I Teach/Study..</label></p>
+            <select class="select-style gender" name="course">
+            <option value="Computer Science">Computer Sc Engineering</option>
+            <option value="Electrical">Electrical Engineering</option>
+            <option value="Mechanical">Mechanical Engineering</option>
+            </select><br><br>
+            <input class="button" name="signup" id="submit" class="login login-submit" tabindex="5" value="Sign Up" type="submit"> 
+  </form>
+<div class="login-help">
+   Have a account? <a href="login.php">login</a>
+  </div>
+</div>
+</div>
    </form> 
 </div>      
 </div>
-
 </body>
 </html>

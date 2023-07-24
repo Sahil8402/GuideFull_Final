@@ -1,6 +1,9 @@
 <?php include 'includes/connection.php';?>
-<?php include 'includes/header.php';?>
-<?php include 'includes/navbar.php';?>
+<link rel="stylesheet" type="text/css" href="css/cms-home.css">
+	<link rel="stylesheet" type="text/css" href="css/material-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/loginstyle.css">
 
 <?php
 session_start();
@@ -43,7 +46,13 @@ else {
     }
 }
 ?>
-
+<div style="background-image: url('./b3.jpg');height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; padding-top:50px;">
+<center>
+<h1><img src="./GuideFull.jpg" height="80px" width="355px" ></h1>
+</center>
 
   <div class="login-card">
     <h1>Log-in</h1><br>
@@ -57,7 +66,7 @@ else {
     <a href="signup.php">Register</a> • <a href="recoverpassword.php">Forgot Password</a>
   </div>
 </div>
-
+</div>
   <script src='css/jquery.min.js'></script>
 <script src='css/jquery-ui.min.js'></script>
 
