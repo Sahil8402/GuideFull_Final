@@ -1964,6 +1964,10 @@ nav.border-line {
         font-size: 30px;
         letter-spacing: 2px;
     }
+    .sent-butnn button {
+        font-size: 14px;
+        width: 345px;
+    }
     .about-jewel-agile-left h4,
     .blog-txt-info h4 a,
     .team-w3layouts-info h4,
@@ -2002,6 +2006,10 @@ nav.border-line {
         padding: 6px 0;
         width: 29%;
     }
+    .sent-butnn button {
+        font-size: 14px;
+        width: 320px;
+    }
     .newsletter input[type="email"] {
         width: 71%;
     }
@@ -2030,6 +2038,10 @@ nav.border-line {
         font-size: 28px;
         letter-spacing: 1px;
     }
+    .sent-butnn button {
+        font-size: 14px;
+        width: 320px;
+    }
     .img-box ul {
         top: 166px;
     }
@@ -2057,6 +2069,7 @@ nav.border-line {
     }
     .sent-butnn button {
         font-size: 14px;
+        width: 270px;
     }
     .navbar-light .navbar-nav .nav-link {
         width: 38%;
