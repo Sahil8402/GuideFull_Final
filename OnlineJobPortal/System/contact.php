@@ -10,7 +10,7 @@ include 'constants/check-login.php';
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Nightingale Jobs - Contact Us</title>
+	<title>GuideFull Jobs - Contact Us</title>
 	<meta name="description" content="Online Job Management / Job Portal" />
 	<meta name="keywords" content="job, work, resume, applicants, application, employee, employer, hire, hiring, human resource management, hr, online job management, company, worker, career, recruiting, recruitment" />
 	<meta name="author" content="BwireSoft">
@@ -20,7 +20,7 @@ include 'constants/check-login.php';
     <meta property="og:image:type" content="image/jpeg" />
     <meta property="og:image:width" content="500" />
     <meta property="og:image:height" content="300" />
-    <meta property="og:image:alt" content="Nightingale Jobs" />
+    <meta property="og:image:alt" content="GuideFull Jobs" />
     <meta property="og:description" content="Online Job Management / Job Portal" />
 
 	<link rel="shortcut icon" href="images/ico/favicon.png">
@@ -58,7 +58,7 @@ include 'constants/check-login.php';
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="./"><img src="images/logo.png" alt="Logo" /></a>
+							<a href="./"><img src="./GuideFull.jpg" style="border-radius:20px" alt="Logo" /></a>
 						</div>
 					</div>
 					
@@ -240,7 +240,7 @@ include 'constants/check-login.php';
 										<address> Takoradi, <br/> PO.BOX AX40, <br/>School Junction</address>
 								</li>
 								<li>
-										<h5>Email</h5><a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a>
+										<h5>Email</h5><a href="mailto:GuideFull.nath2@gmail.com">GuideFull.nath2@gmail.com</a>
 								</li>
 								<li>
 										<h5>Phone Number</h5><a href="tel:+233 546 607 474">+233 546 607 474</a>
@@ -283,8 +283,8 @@ include 'constants/check-login.php';
 									<div class="col-sm-6 col-md-4">
 									
 										<div class="footer-about-us">
-											<h5 class="footer-title">About Nightingale Jobs</h5>
-											<p>Nightingale Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+											<h5 class="footer-title">About GuideFull Jobs</h5>
+											<p>GuideFull Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
 										
 										</div>
 
@@ -310,10 +310,10 @@ include 'constants/check-login.php';
 							
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
-								<h5 class="footer-title">Nightingale Jobs Contact</h5>
+								<h5 class="footer-title">GuideFull Jobs Contact</h5>
 								
 								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:nightingale.nath2@gmail.com">nightingale.nath2@gmail.com</a></p>
+								<p>Email : <a href="mailto:GuideFull.nath2@gmail.com">GuideFull.nath2@gmail.com</a></p>
 								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
 								
 
@@ -335,7 +335,7 @@ include 'constants/check-login.php';
 						
 							<div class="col-sm-4 col-md-4">
 					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> Nightingale Vision Software</p>
+								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> GuideFull Vision Software</p>
 								
 							</div>
 							
