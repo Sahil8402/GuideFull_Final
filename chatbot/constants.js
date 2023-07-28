@@ -37,7 +37,7 @@ const replies = [
     ],
     ["I am infinite"],
     ["Parul university developer"],
-    ["GBOT"],
+    ["Gbot"],
     ["I will provide you Materials , if you want any other materials please do write in query section, so we'll help you"],
     ["What do you want please tell that in query"],
     ["Any materials or anything you want tell in query"],
@@ -66,4 +66,4 @@ const alternative = [
 
 // Whatever else you want :)
 
-const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
+const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"] 
