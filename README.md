@@ -1,1 +1,2 @@
-# GuideFull
+# GuideFull is ultimate website to solve problems that students face in their education period. Our mission is allow students to achieve their goals and make most out of their academic journey. We want that student life should be free from unnecessary stress, worries and improve their experience. Our website is designed to address similar challenges faced by students and to provide effective solutions to make their lives simple and enjoyable.
+
