@@ -1,9 +1,6 @@
+<link rel="icon" href="GuideFullLogo.jpg" type="image/x-icon" />
 <?php include 'includes/connection.php';?>
 <?php include 'includes/adminheader.php';?>
-
-
-
-
 <div id="wrapper">
 
        <?php include 'includes/adminnav.php';?>

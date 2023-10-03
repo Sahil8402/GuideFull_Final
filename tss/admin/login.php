@@ -15,7 +15,7 @@ require_once('../config.php');
   </script>
   <style>
     body{
-      background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
+      background-image: url("./b2.jpg");
       background-size:cover;
       background-repeat:no-repeat;
       backdrop-filter: contrast(1);
@@ -27,7 +27,7 @@ require_once('../config.php');
       background: #8080801c;
     }
   </style>
-  <h1 class="text-center text-white px-4 py-5" id="page-title"><b><?php echo $_settings->info('name') ?></b></h1>
+  <h1 class="text-center text-white px-4 py-5" id="page-title"><b>GuideFull Scheduler</b></h1>
 <div class="login-box">
   <!-- /.login-logo -->
   <div class="card card-navy my-2">
@@ -50,6 +50,7 @@ require_once('../config.php');
             </div>
           </div>
         </div>
+        
         <div class="row">
           <div class="col-8">
             <a href="./register.php">Create Account</a>
@@ -60,12 +61,17 @@ require_once('../config.php');
           </div>
           <!-- /.col -->
         </div>
+      
       </form>
-      <!-- /.social-auth-links -->
+      <br>
+      <center>
+      <p class="mb-1">
+        <a href="forgot-password.html">forgot password</a><br>
+   
+      </p> 
+      </center>
 
-      <!-- <p class="mb-1">
-        <a href="forgot-password.html">I forgot my password</a>
-      </p> -->
+     
       
     </div>
     <!-- /.card-body -->

@@ -17,14 +17,11 @@ else {
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Dashboard - <?php echo $_SESSION['username']; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <title>Dashboard - <?php echo $_SESSION['username']; ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="../GuideFullLogo.jpg" type="image/x-icon" />
     <script src="js/tinymce/tinymce.min.js"></script>
     <script src="js/tinymce/script.js"></script>
     

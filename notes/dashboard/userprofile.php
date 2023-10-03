@@ -1,3 +1,4 @@
+<link rel="icon" href="GuideFullLogo.jpg" type="image/x-icon" />
 <?php
 include ('includes/connection.php');
 include ('includes/adminheader.php');

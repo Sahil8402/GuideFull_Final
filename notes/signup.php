@@ -1,8 +1,22 @@
 <?php include 'includes/connection.php';?>
-<link rel="stylesheet" type="text/css" href="css/cms-home.css">
-	<link rel="stylesheet" type="text/css" href="css/material-icons.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-  <link rel="stylesheet" href="css/loginstyle.css">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="icon" href="GuideFullLogo.jpg" type="image/x-icon" />
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
+rel="stylesheet"
+/>
 
 <?php
 if (isset($_POST['signup'])) {
@@ -71,94 +85,111 @@ else {
 }
 }
 ?>
-      <!-- <div  class="login-card">
-      <h1>Sign Up</h1><br>
-        <form id="contactform" method="POST"> 
-          <p class="contact"><label for="name">Name</label></p> 
-          <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['name']; } ?>"> 
-           
-          <p class="contact"><label for="email">Email</label></p> 
-          <input id="email" name="email" placeholder="example@domain.com" required="" type="email" value="<?php if(isset($_POST['signup'])) { echo $_POST['email']; } ?>"> 
-                
-          <p class="contact"><label for="username">Create a username</label></p> 
-          <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['username']; } ?>"> 
-           
-                <p class="contact"><label for="password">Create a password</label></p> 
-          <input type="password" id="password" name="password" required=""> 
-                <p class="contact"><label for="repassword">Confirm your password</label></p> 
-          <input type="password" id="repassword" name="repassword" required=""> 
-        
-            <p class="contact"><label for="gender">Gender </label></p> 
-            <select class="select-style gender" name="gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            </select><br><br>
-            
-            <p class="contact"><label for="role">I am a..</label></p> 
-            <select class="select-style gender" name="role">
-            <option value="teacher">Teacher</option>
-            <option value="student">Student</option>
-            </select><br><br>
-            
-            <p class="contact"><label for="course">I teach/study..</label></p>
-            <select class="select-style gender" name="course">
-            <option value="Computer Science">Computer Sc Engineering</option>
-            <option value="Electrical">Electrical Engineering</option>
-            <option value="Mechanical">Mechanical Engineering</option>
-            </select><br><br>
-            
-            <input class="button" name="signup" id="submit" class="login login-submit" tabindex="5" value="Sign me up!" type="submit">     -->
-<div style="background-image: url('./b3.jpg');height:900px;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover; padding-top:50px;">
-<center>
-<h1><img src="./GuideFull.jpg" height="100px" width="480px" ></h1>
-</center>
-  <div class="login-card" style="width:400px;height:auto">
-    <h1>Sign Up</h1><br>
-  <form method="POST" id="contactform" >
-        <p class="contact"><label for="name">Name</label></p> 
-        <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['name']; } ?>"> 
-           
-          <p class="contact"><label for="email">Email</label></p> 
-          <input id="email" name="email" placeholder="example@domain.com" required="" tabindex="1" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['email']; } ?>"> 
-                
-          <p class="contact"><label for="username">Create a username</label></p> 
-          <input id="username" name="username" placeholder="username" required="" tabindex="2" type="text" value="<?php if(isset($_POST['signup'])) { echo $_POST['username']; } ?>"> 
-           
-                <p class="contact"><label for="password">Create a password</label></p> 
-          <input type="password" id="password" name="password" required=""> 
-                <p class="contact"><label for="repassword">Confirm your password</label></p> 
-          <input type="password" id="repassword" name="repassword" required=""> 
-        
-            <p class="contact"><label for="gender">Gender</label></p> 
-            <select class="select-style gender" name="gender">
-            <option value="Male">Male</option>
-            <option value="Female">Female</option>
-            </select><br><br>
-            
-            <p class="contact"><label for="role">Role</label></p> 
-            <select class="select-style gender" name="role">
-            <option value="teacher">Teacher</option>
-            <option value="student">Student</option>
-            </select><br><br>
-            
-            <p class="contact"><label for="course">I Teach/Study..</label></p>
-            <select class="select-style gender" name="course">
-            <option value="Computer Science">Computer Sc Engineering</option>
-            <option value="Electrical">Electrical Engineering</option>
-            <option value="Mechanical">Mechanical Engineering</option>
-            </select><br><br>
-            <input class="button" name="signup" id="submit" class="login login-submit" tabindex="5" value="Sign Up" type="submit"> 
-  </form>
-<div class="login-help">
-   Have a account? <a href="login.php">login</a>
-  </div>
-</div>
-</div>
-   </form> 
-</div>      
-</div>
-</body>
-</html>
+<section class="vh-100" style="background:url('./b2.jpg');">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-xl-10">
+              <div class="card" style="border-radius: 1rem;">
+                <div class="row g-0">
+                  <div class="col-md-6 col-lg-5 d-none d-md-block">
+                    <img src="./bb.jpg"
+                      alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem; height: 43rem" />
+                  </div>
+                  <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                    <div class="card-body p-4 p-lg-5 text-black">
+      
+                      <form method="POST" id="contactform" >
+      
+                        <div class="d-flex align-items-center mb-3 pb-1">
+                          <img src="./GuideFull.jpg" style="width:13rem;border-radius:25px"/>
+                        </div>
+      
+                        <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Create your account</h5>
+                      <div class="row">
+                        <div class="col-md-6  mb-4">
+                        <div class="form-outline">
+                          <input type="text" name="name" id="name" required="" class="form-control form-control-lg" value="<?php if(isset($_POST['signup'])) { echo $_POST['name']; } ?>" />
+                          <label class="form-label" for="name">Name</label>
+                        </div>
+                      </div>
+                      <div class="col-md-6 ">
+                        <div class="form-outline mb-4">
+                          <input type="text" name="email" id="email" required="" class="form-control form-control-lg" value="<?php if(isset($_POST['signup'])) { echo $_POST['email']; } ?>" />
+                          <label class="form-label" for="email">Email address</label>
+                        </div>
+                      </div>
+                    </div>
+                            <div class="form-outline mb-4">
+                            <input type="text" name="username" id="username" required="" class="form-control form-control-lg" value="<?php if(isset($_POST['signup'])) { echo $_POST['username']; } ?>" />
+                            <label class="form-label" for="username">Username</label>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                              <input type="password" name="password" id="password" class="form-control form-control-lg" required />
+                                              <label class="form-label" for="password">Password</label>
+                                            </div>
+                            </div>
+                          <div class="col-md-6 ">
+                                            <div class="form-outline mb-4">
+                                              <input type="password" name="repassword" id="repassword" class="form-control form-control-lg" required/>
+                                              <label class="form-label" for="repassword">Confirm Password</label>
+                                            </div>
+                                        </div>
+                          </div><div class="row">
+                            <div class="col-md-6 mb-4">
+                                            <div class="form-outline">
+                                              <label class="form-label" for="gender">Gender</label>
+                                              <select class="select" name="gender">
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                              </select>
+                                             
+                                            </div>
+                            </div>
+                          <div class="col-md-6 mb-4">
+                                            <div class="form-outline ">
+                                              <label class="form-label" for="role">Role</label>
+                                              <select class="select" name="role">
+                                                <option value="teacher">Teacher</option>
+                                                <option value="student">Student</option>
+                                              </select>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <div class="form-outline mb-4">
+                                          <label class="form-label" for="course">Field</label>
+                                            <select class="select " name="course">
+                                              <option value="Computer Science">Computer Science</option>
+                                              <option value="Information Technology">Information Technology</option>
+                                              <option value="Electronic Communication">Electronic Communication</option>
+                                              <option value="Mechanical Engineering">Mechanical Engineering</option>
+                                              <option value="AutoMobile Engineering">AutoMobile Engineering</option>
+                                              <option value="Civil Engineering">Civil Engineering</option>
+                                            </select>
+                                        </div>
+
+                          </div>
+
+                        <div class="pt-1 mb-3">
+                          <button class="btn btn-dark btn-lg btn-block" name="signup" type="submit" id="submit">Sign Up</button>
+                        </div>
+      
+                        <p class="mb-5 pb-lg-2" style="color: #393f81;">Allready have an account? <a href="login.php"
+                            style="color: #393f81;">Login</a></p>
+                        
+                      </form>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!-- MDB -->
+<script
+type="text/javascript"
+src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.js"
+></script>

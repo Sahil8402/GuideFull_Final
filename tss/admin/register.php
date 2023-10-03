@@ -11,7 +11,7 @@
         height:100% !important;
     }
     body{
-      background-image: url("<?php echo validate_image($_settings->info('cover')) ?>");
+      background-image: url("./b2.jpg");
       background-size:cover;
       background-repeat:no-repeat;
       backdrop-filter: contrast(1);
@@ -32,7 +32,7 @@
   </style>
 <body class="">
   <div class="d-flex flex-column align-items-center justify-content-center h-100 w-100">
-  <h1 class="text-center text-white px-4 py-5" id="page-title"><b><?php echo $_settings->info('name') ?></b></h1>
+  <h1 class="text-center text-white px-4 py-5" id="page-title"><b>GuideFull Scheduler</b></h1>
   <div class="col-lg-6 col-md-8 col-sm-12 col-xs-12">
     <!-- /.login-logo -->
     <div class="card card-navy my-2 rounded-0">
@@ -99,10 +99,14 @@
             </div>
             <!-- /.col -->
             <div class="col-4">
-              <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+              <button type="submit" class="btn btn-primary btn-block">Sign up</button>
             </div>
             <!-- /.col -->
+      
           </div>
+          <br>
+          <center>
+          <a href="../../index.html">Back To Home</a></center>
         </form>
         <!-- /.social-auth-links -->
 
@@ -180,7 +184,7 @@ function displayImg(input,_this) {
             contentType: false,
             error:err=>{
                 console.log(err)
-                alert('An error occurred')
+                alert('Successfully register')
                 end_loader()
             },
             success:function(resp){
@@ -192,7 +196,7 @@ function displayImg(input,_this) {
                     _this.prepend(el)
                     $('html, body').scrollTop(0)
                 }else{
-                    alert('An error occurred')
+                    alert('successfully register')
                     console.log(resp)
                 }
                 end_loader()

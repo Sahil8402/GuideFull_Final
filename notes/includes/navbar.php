@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="hedder-up">
                     
-                    <h1><a href="index.html" class="navbar-brand" data-blast="color"><img src="../GuideFullLogo.jpg" height="40px" width="40px">&nbsp;GuideFull</a></h1>
+                    <h1><a href="index.html" class="navbar-brand" data-blast="color"><img src="GuideFullLogo.jpg" height="40px" width="40px">&nbsp;GuideFull</a></h1>
                 </div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

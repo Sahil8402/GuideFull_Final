@@ -5,6 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
+
 html,
 body {
     padding: 0;
@@ -902,7 +903,7 @@ h2.resp-accordion:first-child {
 }
 
 .white-shadow {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.444);
     padding: 2em 1em;
 }
 

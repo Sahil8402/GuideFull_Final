@@ -1,6 +1,5 @@
-
+<link rel="icon" href="../GuideFullLogo.jpg" type="image/x-icon" />
 <?php include 'includes/connection.php'; ?>
-
 <?php include 'includes/adminheader.php';
 ?>
 <?php 
@@ -32,7 +31,6 @@ header("location: index.php");
 
 <form action="" method="post">
             <table class="table table-bordered table-striped table-hover">
-
 
             <thead>
                     <tr>

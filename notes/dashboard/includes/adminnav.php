@@ -10,10 +10,15 @@
                     <span class="icon-bar"></span>
                 </button>
                
-                <a class="navbar-brand" href="index.php"><img src="../../GuideFull.jpg" height="30px" width="130px" style="border-radius:30px"></a>
+                <a class="navbar-brand" href="index.php"><img src="./GuideFull.jpg" height="30px" width="130px" style="border-radius:30px"></a>
 </div>
             
             <ul class="nav navbar-right top-nav">
+                <li>
+                    <h5 style="color:white;padding-top: 6px;padding-right:86rem;">GuideFull Notes Management System</h5>
+                </li>
+                <li>
+                <a href="../index.php">Home</a></li>
                 <?php if($_SESSION['role'] !== 'admin') { ?> <li><a href="./uploadnote.php">UPLOAD</a></li> <?php } ?>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> <?php echo $_SESSION['name']; ?> <b class="caret"></b></a>

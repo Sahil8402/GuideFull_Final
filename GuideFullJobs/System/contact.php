@@ -23,7 +23,7 @@ include 'constants/check-login.php';
     <meta property="og:image:alt" content="GuideFull Jobs" />
     <meta property="og:description" content="Online Job Management / Job Portal" />
 
-	<link rel="shortcut icon" href="images/ico/favicon.png">
+	<link rel="shortcut icon" href="./favicon.png">
 
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" media="screen">	
 	<link href="css/animate.css" rel="stylesheet">
@@ -58,7 +58,7 @@ include 'constants/check-login.php';
 					
 					<div class="logo-wrapper">
 						<div class="logo">
-							<a href="./"><img src="./GuideFull.jpg" style="border-radius:20px" alt="Logo" /></a>
+						<a href="./"><img src="./L5.png" style="border-radius:20px" alt="Logo" /></a>
 						</div>
 					</div>
 					
@@ -128,11 +128,11 @@ include 'constants/check-login.php';
 				
 					<div class="row gap-20">
 					
-						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Employer</a>
+					<div class="col-sm-6 col-md-6">
+							<a href="register.php?p=Employer" class="btn btn-facebook btn-block mb-5-xs">Register as Company</a>
 						</div>
 						<div class="col-sm-6 col-md-6">
-							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Employee</a>
+							<a href="register.php?p=Employee" class="btn btn-facebook btn-block mb-5-xs">Register as Candidate</a>
 						</div>
 
 					</div>
@@ -268,6 +268,8 @@ include 'constants/check-login.php';
 			
 			</div>
 
+			
+			
 			<footer class="footer-wrapper">
 			
 				<div class="main-footer">
@@ -284,7 +286,7 @@ include 'constants/check-login.php';
 									
 										<div class="footer-about-us">
 											<h5 class="footer-title">About GuideFull Jobs</h5>
-											<p>GuideFull Jobs is a job portal, online job management system developed by Nathaniel Nkrumah for his project in february 2018.</p>
+											<p>GuideFull Jobs is a job portal, online job management which will provide trusted job.</p>
 										
 										</div>
 
@@ -299,11 +301,8 @@ include 'constants/check-login.php';
 											<li><a href="employees.php">Employees</a></li>
 											<li><a href="contact.php">Contact Us</a></li>
 											<li><a href="#">Go to top</a></li>
-
-										</ul>
-									
-									</div>
-
+									</ul>									
+								</div>
 								</div>
 
 							</div>
@@ -311,12 +310,10 @@ include 'constants/check-login.php';
 							<div class="col-sm-12 col-md-3 mt-30-sm">
 							
 								<h5 class="footer-title">GuideFull Jobs Contact</h5>
+							
+								<p>Email : <a href="mailto:GuideFull.nath2@gmail.com">GuideFull@gmail.com</a></p>
+								<p>Phone : <a href="tel:+233546607474">+91 6356144561</a></p>
 								
-								<p>Address : Takoradi, School Junction PO.BOX AX40</p>
-								<p>Email : <a href="mailto:GuideFull.nath2@gmail.com">GuideFull.nath2@gmail.com</a></p>
-								<p>Phone : <a href="tel:+233546607474">+233 546 607 474</a></p>
-								
-
 
 							</div>
 
@@ -327,38 +324,7 @@ include 'constants/check-login.php';
 					
 				</div>
 				
-				<div class="bottom-footer">
-				
-					<div class="container">
-					
-						<div class="row">
-						
-							<div class="col-sm-4 col-md-4">
-					
-								<p class="copy-right">&#169; Copyright <?php echo date('Y'); ?> GuideFull Vision Software</p>
-								
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-							
-								<ul class="bottom-footer-menu">
-									<li><a >Developed by Nathaniel Nkrumah</a></li>
-								</ul>
-							
-							</div>
-							
-							<div class="col-sm-4 col-md-4">
-								<ul class="bottom-footer-menu for-social">
-									<li><a href="<?php echo "$tw"; ?>"><i class="ri ri-twitter" data-toggle="tooltip" data-placement="top" title="twitter"></i></a></li>
-									<li><a href="<?php echo "$fb"; ?>"><i class="ri ri-facebook" data-toggle="tooltip" data-placement="top" title="facebook"></i></a></li>
-									<li><a href="<?php echo "$ig"; ?>"><i class="ri ri-instagram" data-toggle="tooltip" data-placement="top" title="instagram"></i></a></li>
-								</ul>
-							</div>
-						
-						</div>
-
-					</div>
-					
+							 
 				</div>
 			
 			</footer>
